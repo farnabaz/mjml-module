@@ -1,2 +1,2 @@
-# @MJML Module
+# MJML Module
 

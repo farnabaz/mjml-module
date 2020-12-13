@@ -1,0 +1,40 @@
+{
+  "name": "mjml-module",
+  "version": "0.0.1",
+  "description": "MJML integration with NuxtJS",
+  "repository": "farnabaz/mjml-module",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn clean && tsc",
+    "clean": "rimraf dist",
+    "dev": "yarn nuxt-ts playground",
+    "test": "yarn lint",
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "release": "yarn test && standard-version && yarn build && git push --follow-tags && npm publish"
+  },
+  "dependencies": {
+    "chokidar": "^3.4.3",
+    "consola": "^2.15.0",
+    "fs-extra": "^9.0.1",
+    "mjml": "^4.7.1",
+    "raw-loader": "^4.0.2",
+    "webpack-mjml-loader": "^1.1.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.11",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "@nuxtjs/eslint-config-typescript": "^5.0.0",
+    "@types/fs-extra": "^9.0.5",
+    "eslint": "^7.15.0",
+    "jest": "^26.6.3",
+    "nuxt": "^2.14.11"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

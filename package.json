@@ -6,7 +6,8 @@
   "license": "MIT",
   "main": "dist/index.js",
   "files": [
-    "dist"
+    "dist",
+    "runtime"
   ],
   "scripts": {
     "build": "yarn clean && tsc",

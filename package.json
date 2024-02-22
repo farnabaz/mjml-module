@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "chokidar": "^3.4.3",
-    "consola": "^2.15.0",
+    "consola": "^3.2.3",
     "fs-extra": "^9.0.1",
     "mjml": "^4.7.1",
     "webpack-mjml-loader": "^1.1.0"

@@ -11813,12 +11813,10 @@ webpack-log@^2.0.0:
     ansi-colors "^3.0.0"
     uuid "^3.3.2"
 
-webpack-mjml-loader@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/webpack-mjml-loader/-/webpack-mjml-loader-1.1.0.tgz#3a3e866d5dbd5a47716830e1be21c525ed1c76ec"
-  integrity sha512-ErHUs7Fq4foqSneW8EA9Ens9YMnJG9GZN7aJgISvUCizb9RO4ffBGhCwquxMTL6GHr9kY0nIi6k75Z3WtdWHow==
-  dependencies:
-    loader-utils "^2.0.0"
+webpack-mjml-loader@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/webpack-mjml-loader/-/webpack-mjml-loader-2.0.1.tgz#9c8aa7a63aeb8deba708fc4c82d90a2c5e0a6676"
+  integrity sha512-KEiYbPfeRDJ4VP1FClfSknhZM65Ij9tM4dvCguoevCUnPYJvBWRh7AHHVF7KvyyWiZAWHAennjcc4bzmKGbHLg==
 
 webpack-node-externals@^2.5.2:
   version "2.5.2"

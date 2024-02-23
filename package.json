@@ -20,7 +20,7 @@
   "dependencies": {
     "chokidar": "^3.4.3",
     "consola": "^2.15.0",
-    "fs-extra": "^9.0.1",
+    "fs-extra": "^11.2.0",
     "mjml": "^4.7.1",
     "webpack-mjml-loader": "^1.1.0"
   },
@@ -29,7 +29,7 @@
     "@nuxt/typescript-build": "^2.0.3",
     "@nuxt/typescript-runtime": "^2.0.0",
     "@nuxtjs/eslint-config-typescript": "^5.0.0",
-    "@types/fs-extra": "^9.0.5",
+    "@types/fs-extra": "^11.0.4",
     "eslint": "^7.15.0",
     "jest": "^26.6.3",
     "nuxt": "^2.14.11",

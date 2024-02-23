@@ -22,7 +22,7 @@
     "consola": "^2.15.0",
     "fs-extra": "^9.0.1",
     "mjml": "^4.7.1",
-    "webpack-mjml-loader": "^1.1.0"
+    "webpack-mjml-loader": "^2.0.1"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.11",
